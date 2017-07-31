@@ -56,7 +56,7 @@ EXAMPLE
 
 	For the .json results file within this folder, create a creds.json file that looks like:	    
 	{
-    	"email": "your@qTestLogin",
+        "email": "your@qTestLogin",
         "password": "yourqTestPassword",
         "url": "your.qtest.url.without.the.http.protocol.com",
         "project": theIDOfYourProjectThatYouCanGetFromTheURL

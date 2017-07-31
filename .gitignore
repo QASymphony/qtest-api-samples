@@ -1,3 +1,9 @@
+
+creds.json
+
+# Mac
+.DS_Store
+
 # Logs
 logs
 *.log

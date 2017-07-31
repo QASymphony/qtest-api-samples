@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API Tests" time="1.243">
+  <testsuite name="AddTestCase / 11633035-Positive-AdminLogin" id="6468286b-2302-4f5e-b5cc-eec6b73db746" tests="3" time="0.255">
+    <testcase name="Status code is 200" time="0.255"/>
+    <testcase name="Access Token is not blank" time="0.255"/>
+    <testcase name="Scope contains administration" time="0.255"/>
+  </testsuite>
+  <testsuite name="AddTestCase / 11645499-Positive-AddTestCase" id="9c3e2ad9-06ef-490e-9349-b182c06e4b1a" tests="3" time="0.131">
+    <testcase name="Status code is 200" time="0.131"/>
+    <testcase name="Name is accurate" time="0.131"/>
+    <testcase name="First step has the right description" time="0.131"/>
+  </testsuite>
+  <testsuite name="Login / 11633035-Positive-AdminLogin" id="1a4ffd7f-1486-45a5-836c-8d096efea6f6" tests="3" time="0.085">
+    <testcase name="Status code is 200" time="0.085"/>
+    <testcase name="Access Token is not blank" time="0.085"/>
+    <testcase name="Scope contains administration" time="0.085"/>
+  </testsuite>
+  <testsuite name="Login / 11633202-Negative-BadPassword" id="76f1fc4c-f738-445e-b6d7-cc91bb60bdc3" tests="5" time="0.089">
+    <testcase name="Status code is 400" time="0.089">
+      <failure type="AssertionFailure">
+        <![CDATA[Failed 1 times.]]>
+      </failure>
+    </testcase>
+    <testcase name="Access Token is blank" time="0.089"/>
+    <testcase name="Scope is missing" time="0.089"/>
+    <testcase name="Received error is accurate" time="0.089"/>
+    <testcase name="Error Description is accurate" time="0.089"/>
+  </testsuite>
+  <testsuite name="Login / 11633398-Negative-LongUsername" id="81469ef2-f8e5-46bc-b95f-ba6c70e7bab6" tests="5" time="0.518">
+    <testcase name="Status code is 400" time="0.518"/>
+    <testcase name="Access Token is blank" time="0.518"/>
+    <testcase name="Scope is missing" time="0.518"/>
+    <testcase name="Received error is accurate" time="0.518"/>
+    <testcase name="Error Description is accurate" time="0.518"/>
+  </testsuite>
+  <testsuite name="Login / 11633399-Negative-LongPassword" id="6ee5e4d9-e3ba-40c7-ab26-c6c5f4ca33cb" tests="5" time="0.165">
+    <testcase name="Status code is 400" time="0.165"/>
+    <testcase name="Access Token is blank" time="0.165"/>
+    <testcase name="Scope is missing" time="0.165"/>
+    <testcase name="Received error is accurate" time="0.165"/>
+    <testcase name="Error Description is accurate" time="0.165"/>
+  </testsuite>
+</testsuites>
